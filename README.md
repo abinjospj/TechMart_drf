@@ -697,16 +697,16 @@ Replace with FINAL CONFIG:
 ```
 server {
     listen 80;
-    server_name djangoclickmart.store www.djangoclickmart.store;
+    server_name djangoclickmart.store www.djangotechmart.store;
     return 301 https://$host$request_uri;
 }
 
 server {
     listen 443 ssl;
-    server_name djangoclickmart.store www.djangoclickmart.store;
+    server_name djangotechmart.store www.djangotechmart.store;
 
-    ssl_certificate /etc/letsencrypt/live/djangoclickmart.store/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/djangoclickmart.store/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/djangotechmart.store/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/djangotechmart.store/privkey.pem;
 
     location / {
         proxy_pass http://frontend:80;
