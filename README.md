@@ -697,7 +697,7 @@ Replace with FINAL CONFIG:
 ```
 server {
     listen 80;
-    server_name djangoclickmart.store www.djangotechmart.store;
+    server_name djangotechmart.store www.djangotechmart.store;
     return 301 https://$host$request_uri;
 }
 
