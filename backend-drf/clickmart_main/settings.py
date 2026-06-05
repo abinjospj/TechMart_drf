@@ -180,3 +180,5 @@ CORS_ALLOWED_ORIGINS = [
     'http://djangotechmart.store',
     'https://djangotechmart.store',
 ]
+
+CSRF_TRUSTED_ORIGINS = os.getenv("CSRF_TRUSTED_ORIGINS", "").split(",")
