@@ -177,4 +177,6 @@ RAZORPAY_KEY_SECRET = config('RAZORPAY_KEY_SECRET')
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://172.235.19.202:5173',
+    'http://djangotechmart.store',
+    'https://djangotechmart.store',
 ]
