@@ -306,8 +306,8 @@ git --version
 Reconnect to SSH (if disconnected):
 ```sh
 cd /opt
-mkdir clickmart
-cd clickmart
+mkdir techmart
+cd techmart
 git clone https://github.com/your-repo.git .
 ```
 Repo is now cloned inside /opt/clickmart
