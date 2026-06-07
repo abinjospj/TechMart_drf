@@ -50,8 +50,8 @@ class PlaceOrderView(APIView):
                 return Response({"details": f'Only {product.quantity} is left for {product.name}'}, status=status.HTTP_400_BAD_REQUEST)
         
         #Decrease the product quantity
-        product.stock -= item.quantity
-        product.save()
+            product.stock -= item.quantity
+            product.save()
 
         # create order items
         for item in cart.items.all():
