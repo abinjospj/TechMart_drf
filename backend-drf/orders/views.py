@@ -68,7 +68,7 @@ class PlaceOrderView(APIView):
         cart.save()
 
         # send the notification email
-        send_order_notification(order)
+        #send_order_notification(order)
 
         # send the response to frontend
 
